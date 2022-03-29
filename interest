@@ -1,0 +1,16 @@
+//import java.lang.Math;
+import java.io.*;
+class Interest{
+	public static void main(String args[]){
+		int principal=10000,time=2;
+		double rate=8.6,si,ci;
+		si = (principal*time*rate)/100;
+		ci = principal*(Math.pow((1+rate/100),time));
+		
+		System.out.println("compound interest");
+		System.out.println(ci);
+		System.out.println("simple interest");
+		System.out.println(si);
+		
+		}
+		}
