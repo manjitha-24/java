@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    char ch='v';
+	    String s=Character.toString(ch);
+	    System.out.println("char to string : "+s);
+	    String str="java";
+	    for(int i=0;i<str.length();i++){
+	        char c = str.charAt(i);
+	        System.out.println("char at "+i+" position "+c);
+	    }
+	    
+	}
+}
