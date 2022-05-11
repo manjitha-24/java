@@ -1,0 +1,18 @@
+public class Main
+{
+	public static void main(String[] args) {
+		String str = "hannah",reverse_str="";
+		
+		int i;
+		for(i=str.length()-1;i>=0;--i){
+		   reverse_str+=str.charAt(i);
+		}
+	
+		if(str.toLowerCase().equals(reverse_str.toLowerCase())){
+		    System.out.println("palindrome");
+		}
+		else{
+		     System.out.println("not a palindrome");
+		}
+	}
+}
